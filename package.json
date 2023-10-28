@@ -1,0 +1,28 @@
+{
+  "name": "castle_grimtol_23",
+  "version": "1.0.0",
+  "description": "A Grimtol Adventure",
+  "main": "index.js",
+  "scripts": {
+      "start": "ts-node index.ts",
+      "build": "tsc",
+      "serve": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewrady/castle_grimtol_23.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewrady/castle_grimtol_23/issues"
+  },
+  "homepage": "https://github.com/andrewrady/castle_grimtol_23#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.20",
+    "@types/node": "^20.8.9",
+    "express": "^4.18.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
